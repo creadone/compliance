@@ -12,8 +12,8 @@ group :production do
 end
 
 group :test, :development do
+  gem 'rack-test', require: 'rack/test'
   gem 'rspec'
   gem 'rubocop', require: false
-  gem 'rack-test'
   gem 'webmock'
 end
