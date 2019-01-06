@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/creadone/compliance.svg?branch=master)](https://travis-ci.org/creadone/compliance)
+
 # Compliance
 
 ## Что это такое
