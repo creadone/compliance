@@ -1,0 +1,13 @@
+query {
+  user(login: {{login}}) {
+    name
+    repositories(last: {{repositories_number}}, orderBy: {field: CREATED_AT, direction: DESC}) {
+      edges {
+        node {
+          name: name
+          created_at: createdAt
+        }
+      }
+    }
+  }
+}

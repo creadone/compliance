@@ -1,0 +1,19 @@
+query {
+  repository(owner: {{owner}}, name: {{name}}) {
+    name
+    ref(qualifiedName: "master") {
+      target {
+        ... on Commit {
+          history(first: {{commits_number}}) {
+            edges {
+              node {
+                committedDate
+                messageHeadline
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
