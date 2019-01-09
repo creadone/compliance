@@ -55,8 +55,8 @@ Gemfile                     # Конфигурационный файл мене
 
 ## Установка и запуск
 
-Перед любым вариантом установки (за исключением установки из doker-образа) необходимо указать две переменные:
-1. `ENV['GITHUB_TOKEN']` — токен для аутотентификации в API Github ([см. инструкцию](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)).
+Перед любым вариантом установки (за исключением установки из doсker-образа) необходимо указать две переменные:
+1. `ENV['GITHUB_TOKEN']` — токен для аутентификации в API Github ([см. инструкцию](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)).
 2. `ENV['APP_ENV']` — режим приложения: 'test', 'development', 'production'.
 
 Обе переменные также можно указать в конфиге приложения `config.rb`, но приоритетными являются переменные среды.
